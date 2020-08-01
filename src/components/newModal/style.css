@@ -1,0 +1,7 @@
+.info-modal{
+    height: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
