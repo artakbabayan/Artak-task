@@ -4,7 +4,8 @@ import Card from '@material-ui/core/Card';
 import AddName from '../addName';
 import Education from '../education';
 import Button from '@material-ui/core/Button'
-
+import WelcomeTitle from '../welcomeTitle/welcomeTitle';
+import Text from '../text/Text'
 function Welcome() {
   
 
@@ -13,11 +14,8 @@ return (
     <div className="main-welcome">
     <Card className="main-car-welcome">
       <div className="main-wrapper-welcome">
-        
-        <div className="add-name">
-          <p>Type your name and click "Enter" below to begin!</p>
-         
-        </div>
+        <WelcomeTitle/>
+        <Text/>
       </div>
     </Card>
   </div>
