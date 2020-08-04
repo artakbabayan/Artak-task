@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import './style.css';
 import Button from "@material-ui/core/Button";
-import Card from '@material-ui/core/Card';
 import NewModal from '../newModal/newModal';
 import Info from '../info/Info'
 import LeftCard from '../LeftCard/LeftCard';
 
-function Education(props) {
+function MainContent(props) {
 
 
   const [status ,setStatus] = useState(true)
@@ -39,4 +38,4 @@ function Education(props) {
   );
 }
 
-export default Education;
+export default MainContent;
