@@ -21,7 +21,7 @@ function Welcome() {
 
 return (
     
-    (nameState === '') ? (<div className="main-welcome">
+    <div className="main-welcome">
     <Card className="main-car-welcome">
       <div className="main-wrapper-welcome">
         <div className="title-welcome">
@@ -29,14 +29,14 @@ return (
         </div>
         <div className="add-name">
           <p>Type your name and click "Enter" below to begin!</p>
-          <AddName onChange={addName}  ></AddName>
+          {/* <AddName onChange={addName}  ></AddName>
           <Button onClick={setName} className="btn-add" variant="contained" color="primary" >
           Enter
-          </Button>
+          </Button> */}
         </div>
       </div>
     </Card>
-  </div>) : <Education name={nameState}/>
+  </div>
     
   );
 }

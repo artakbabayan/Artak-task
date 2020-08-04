@@ -1,5 +1,5 @@
 import React from 'react';
-import Welcome from './components/welcome';
+import WelcomePage from '../src/pages/welcome/welcome';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Switch>
-          <Route path="/" component={Welcome} exact={true}/>
+          <Route path="/" component={WelcomePage} exact={true}/>
         </Switch>
       </div>
     </BrowserRouter>
