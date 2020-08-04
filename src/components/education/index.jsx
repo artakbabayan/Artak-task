@@ -3,10 +3,11 @@ import './style.css';
 import Button from "@material-ui/core/Button";
 import Card from '@material-ui/core/Card';
 import NewModal from '../newModal/newModal';
+import Info from '../info/Info'
+import LeftCard from '../LeftCard/LeftCard';
 
 function Education(props) {
 
-  
 
   const [status ,setStatus] = useState(true)
 
@@ -28,22 +29,9 @@ function Education(props) {
         </div>
         <div className="main-wrapper">
           <div className="content">
-          {status ? (<Card className="info">
-              <h3>Graduate Computer Science @ Showwcase University</h3>
-              <div>
-                <p>August 2019 - Present</p>
-                <li>"Not all those who wander are lost"</li>
-                <li>"Not all those who wander are lost"</li>
-                <li>"Not all those who wander are lost"</li>
-              </div>
-            </Card>) : (<NewModal/>)}
+          {status ? <Info/> : <NewModal/>}
           </div>
-          <div>
-            <Card className="left-card">
-              <h4>Showwcase University</h4>
-              <p>Forward Bootcamp</p>
-            </Card>
-          </div>
+          <LeftCard/>
         </div>
       </div>
     </div>

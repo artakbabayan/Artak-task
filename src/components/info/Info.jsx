@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './style.css';
 import Card from '@material-ui/core/Card';
 
 
