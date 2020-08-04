@@ -3,8 +3,8 @@ import Education from '../../components/education/index'
 import {useState} from 'react'
 import Welcome from '../../components/welcome/index';
 import AddName from '../../components/addName';
-import { Button } from '@material-ui/core';
-// import './style.css';
+import {Button} from '@material-ui/core';
+import './style.css';
 
 function WelcomePage() {
 
@@ -23,12 +23,17 @@ function WelcomePage() {
 
   return ((nameState === '')
     ? (
-      <Welcome>
-        <AddName onChange={addName}  ></AddName>
-          <Button onClick={setName} className="btn-add" variant="contained" color="primary" >
+      <div className="main-welcome">
+        <Welcome/>
+        <AddName onChange={addName}></AddName>
+        <Button
+          onClick={setName}
+          className="btn-add"
+          variant="contained"
+          color="primary">
           Enter
-          </Button>
-      </Welcome>
+        </Button>
+      </div>
     )
     : <Education name={nameState}/>);
 }
