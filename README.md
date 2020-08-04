@@ -1,10 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The app is developed by Atomic Design in React.
+
+- Here are a few technologies i use at Showwcase:
+
+    - MATERIAL-UI: (https://material-ui.com/)
+    - Hooks: (https://reactjs.org/docs/hooks-intro.html)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start` or `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
