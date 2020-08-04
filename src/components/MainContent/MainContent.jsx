@@ -18,7 +18,7 @@ function MainContent(props) {
 
   return (
 
-    <div className="main">
+    
       <div className="main-card">
         <div className="title">
           <h1>Welcome to {props.name}'s education page</h1>
@@ -33,8 +33,7 @@ function MainContent(props) {
           <LeftCard/>
         </div>
       </div>
-    </div>
-
+     
   );
 }
 

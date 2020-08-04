@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react'
-import Education from '../../components/education/index'
+import Education from '../education/education'
 import Card from '@material-ui/core/Card/Card'
 import Welcome from '../../components/welcome/index';
 import AddName from '../../components/addName';
